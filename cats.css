@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	font-family: Comic Sans MS, sans-serif;
+}
+
+
+html, body {
+	height: 100%;
+	background: url(wood.jpg) repeat white;
+}
+
+.left {	float: left; }
+
+.right { float: right; }
+
+.flex-v {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.flex-h {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.flex-align-start {
+	align-items: start;
+}
+
+.flex-align-center {
+	align-items: center;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+/* .flex-g1 {
+	flex-grow: 1;
+	flex-shrink: 0;
+	flex-basis: auto;
+}
+
+.flex-g0 {
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-basis: auto;
+} */
+
+.wrapper {
+	flex-grow: 1;
+	flex-shrink: 0;
+	flex-basis: auto;
+}
+
+.footer {
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-basis: auto;
+	height: 20px;
+}
+
+.header {
+	min-height: 100px;
+}
+
+
+
+
+.block {
+	border: 3px outset green;
+	border-bottom: 3px dashed green;
+	border-radius: 2em;
+	background: rgb(166, 170, 226);
+	margin: 20px;
+	padding: 10px;
+}
+
+ol {
+	list-style-position: inside;
+}
+
+.sidebar{
+	min-width: 100px;
+}
+
+#icon {
+	width: 100px;
+	height: 100px;
+}
+
+.header__field {
+	margin-left: 30px;
+}
+
+input.field {
+	border: 2px solid silver;
+	border-radius: 5px;
+	margin-left: 30px;	
+}
+
+
+

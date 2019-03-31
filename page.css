@@ -1,4 +1,6 @@
 * {
+	margin: 0;
+	padding: 0;
 	text-decoration: none;
 	font-size: 1em;
 	font-family: Comic Sans MS, sans-serif;
@@ -6,20 +8,54 @@
 
 body{
 	background: url(wood.jpg) repeat white;
+	width: 100%;
+	height: 100%;
+	font-size: 1em;
+	font-family: "Segoe UI", sans-serif;
+}
+
+header footer {
+	width: 100%;
+	min-height: 50px;
+}
+
+.block {
+	border: 3px outset green;
+	border-bottom: 3px dashed green;
+	border-radius: 2em;
+	background: rgb(166, 170, 226);
+	margin: 20px;
+	padding: 10px;
 }
 
 h1 {
 	color: rgb(68, 17, 17);
+	text-transform: capitalize;
+	letter-spacing: 0em;
+	line-height: 120%
 }
 
-h1 {
-	color: rgb(245, 0, 0);
+
+.menu-left {
+	float: left;
+
 }
 
-h1:hover {
-	color: green;
+.menu-right {
+	float: right;
+}
+.main {
+
 }
 
-h1:active {
-	color: aqua;
+
+#el3 {
+	float: left;
+}
+
+#el4 {
+}
+
+#el5 {
+	float: left;
 }
