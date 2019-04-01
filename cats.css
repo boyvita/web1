@@ -46,15 +46,13 @@ input {
 
 .wrapper {
   flex-grow: 1;
-  flex-shrink: 0;
-  flex-basis: auto;
+  /* height: auto; */
 }
 
 .footer {
-  flex-grow: 0;
-  flex-shrink: 0;
-  flex-basis: auto;
-  height: 20px;
+  /* flex-grow: 0; */
+	height: 40px;
+	line-height: 40px;
 }
 
 .header {
@@ -70,10 +68,6 @@ input {
   width: 100px;
   height: 100px;
 }
-
-/* .container {
-	text-align: center;
-} */
 
 .content {
 	margin: 0 auto;
