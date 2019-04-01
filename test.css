@@ -2,23 +2,57 @@
   margin: 0;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
 .wrap {
-  display: inline-block;
+  width: calc(100% - 30px);
+  height: 500px;
+  border: 5px solid green;
+  border-radius: 15px;
+  background: silver;
+  margin: 10px;
 }
 
 .block {
-  width: 500px;
+  width: 200px;
   height: 60px;
   border: 5px solid green;
   border-radius: 15px;
   background: pink;
   margin: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#el1 {
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}
+
+#el2 {
+  height: 220px;
+  line-height: 220px;
+  text-align: center;
+}
+#el3 {
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+}
+#el4 {
+  height: 120px;
+  line-height: 120px;
+  text-align: center;
+}
+#el5 {
+  height: 220px;
+  line-height: 220px;
+  text-align: center;
 }
 
 .text {
-  vertical-align: middle;
 }
